@@ -8,11 +8,12 @@
     <script type="text/javascript"
         src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
     </script>
-    <script>
-        (function(){
-            // Initialize EmailJS with your User ID
-            emailjs.init("RmFfdVvDpWrRq7RaQ"); // Replace with your EmailJS User ID
-        })();
+    <script type="text/javascript">
+       (function(){
+          emailjs.init({
+            publicKey: "RmFfdVvDpWrRq7RaQ",
+          });
+       })();
     </script>
 </head>
 <body>
