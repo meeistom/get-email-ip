@@ -1,3 +1,3 @@
 # get-email-ip
 
-A small Python Flask website to obtain someones IP address when they visit this website.
+A small website to obtain someone's IP address and then redirect them to another website.
